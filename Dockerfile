@@ -3,7 +3,7 @@ MAINTAINER ya.Seregko
 
 RUN set -x \
     && apk update \
-    && apk add git openjdk8 expect curl
+    && apk add git openjdk8 expect curl sudo
 
 RUN set -x \
     # Create a dev user to use as the directory owner
